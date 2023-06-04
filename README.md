@@ -1,6 +1,6 @@
 # Todolist
 
-![Todolist](link-to-your-image)
+![Todolist]([link-to-your-image](https://github.com/speedbuild98/ToDo---Next.js-13-Pocketbase/blob/main/TODO-Preview.png?raw=true))
 
 A simple Todolist project built with Next.js and PocketBase as the backend, styled with Tailwind CSS.
 
