@@ -1,30 +1,15 @@
 'use client';
 
-// export default function Test() {
-//   return (
-//     <div>
-//       <h1>Create Note</h1>
-//     </div>
-//   );
-// }
-
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
-export default function createTask() {
+export default function CreateTask() {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
 
   const router = useRouter();
 
-  const create = async() => {
-    // const db = new PocketBase('http://127.0.0.1:8090');
-
-    // await db.records.create('notes', {
-    //   title,
-    //   content,
-    // });
-
+  const create = async () => {
     await fetch('http://127.0.0.1:8090/api/collections/tasks/records', {
       method: 'POST',
       headers: {
@@ -39,8 +24,8 @@ export default function createTask() {
     setContent('');
     setTitle('');
 
-    router.refresh();
-  }
+    router.push('/');
+  };
 
   return (
     <form onSubmit={create} className="mt-8 flex flex-col w-[500px] mx-auto">
