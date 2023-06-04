@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <nav className="bg-gray-800 py-4">
         <div className="container mx-auto px-4 flex items-center justify-around">
               <Link href="/" className="text-white text-lg font-semibold">
-                <Image src={logo} width={50} height={50} />
+                <Image src={logo} width={50} height={50} alt="logo"/>
               </Link>
               <Link href="/tasks" className="text-white text-lg font-semibold">
                 Tasks
