@@ -3,7 +3,7 @@
 [![English](https://img.shields.io/badge/README-English-blue)](#english)
 [![Español](https://img.shields.io/badge/README-Español-brightgreen)](#español)
 
-[![Go to the site!](https://github.com/speedbuild98/PreEntrega1Gallardo/blob/main/PreEntrega1Gallardo.png?raw=true)](https://todo-sigma-snowy.vercel.app/)
+[![Go to the site!](https://github.com/speedbuild98/ToDo---Next.js-13-Pocketbase/blob/main/TODO-Preview.png?raw=true)](https://todo-eqztbl8zc-speedbuild98.vercel.app/)
 
 ## English
 
