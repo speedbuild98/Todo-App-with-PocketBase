@@ -27,7 +27,8 @@ To get started with the project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/speedbuild98/ToDo---Next.js-13-Pocketbase`
 2. Install the dependencies: `npm install`
-3. Start the development server: `npm run dev`
+3. Start the PocketBase server: `./pocketbase serve`
+4. Start the development server: `npm run dev`
 
 ## Usage
 
